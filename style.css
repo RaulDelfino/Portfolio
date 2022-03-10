@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* ----  Header   ----- */
+
+
+header {
+    text-align: center;
+    color: white;
+    background-color: darkslateblue;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    padding-top: 50px;
+}
+#redes {
+    padding: 5px;
+    padding-right: 16px;
+    margin: auto;
+    width: 20%; 
+    border: 2px solid rgba(128, 128, 128, 0.344) ;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+#redes img{ 
+    margin: auto;
+    width: 20px;
+}
+#redes a {
+    margin-left: 20px;
+}
+#foto {
+    position: relative ;
+    width: 150px;
+    border-radius: 50%;
+    top: 15px;
+    margin: auto;
+}
+
+/*  ----  Main  ----  */
+
+
+
+main {    
+    margin: auto;
+    background-color: rgb(211, 211, 211);
+    padding: 20px;
+}
+.perfil h2 {
+    padding-top: 40px ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.perfil {
+    
+    padding-top: 20px;
+    margin: auto;
+    align-items: center;
+    text-align: justify;
+    line-height: 20px;
+}
+.perfil p {
+    width: 50%;
+    margin: auto;
+}
+
+.tituloT {
+    margin: auto;    
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 250px;  
+    padding-top: 50px;
+    border-top: 2px solid rgb(141, 141, 141);
+    text-align: center;
+}
+
+
+/*  ----  Tecnologias  ----*/
+
+
+
+article img {
+    width: 100px;
+}
+
+.linha-verticalT {
+    height: 80px;
+    border-right: 1px solid rgb(141, 141, 141);
+    margin:auto;
+}
+.linha-verticalP {
+    height: 80px;
+    border-right: 1px solid rgb(141, 141, 141);
+    margin:auto;
+}
+.tecnolo {
+
+    color: white;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.tecnolo img {
+    width: 100px;
+}
+.linguaguens {
+    text-align: center;
+}
+
+
+
+
+/*  ---- Projetos ----  */
+
+
+
+
+
+article{
+    color: white;
+    padding: 20px;
+    background-color: darkslateblue;
+}
+
+.tituloP {
+    text-align: center;
+}
+
+.projetos {    
+    display: flex;
+    justify-content: space-between;
+}
+.proj {
+    width: 20%;
+    margin: 20px;
+    margin-top: 50px;
+
+}
+.proj h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.proj ul {
+    background-color: rgb(211, 211, 211) ;
+    padding: 10px;
+    list-style-position: inside;
+    color: black;
+    border-radius: 10px;
+}
+.proj img {
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 10px;
+}
+.proj img:hover {
+    width: 110%;
+}
+@media screen and ( max-width: 890px ) {
+    #redes {
+        width: 30%;
+    }
+}
+@media screen and ( max-width: 780px ) {
+        
+    .perfil p {
+            width: 70%;
+        
+    }
+        
+    .tecnolo {
+            width: 100%;
+    }
+
+        
+    .projetos{
+            display: block;
+    }
+    .proj {
+            text-align: center;
+            margin: auto;
+            width: 80%;
+    }
+    .linha-verticalP {
+            display: none;
+    }
+    .proj ul {
+            margin: auto;
+            margin-top: 10px;
+            width: 30%;
+    }
+}
+@media screen and (max-width: 580px){
+
+    #redes {
+        width: 35%;
+    }
+
+    #redes img {
+        width: 15px;
+    }
+}
+@media screen and (max-width: 500px){
+    
+    header h1 {
+        font-size: 1.5em;
+    }
+    header h2 {
+        font-size: 1.3em;
+    }
+
+    .linguaguens img {
+        width: 15vw;
+    }
+    .linha-verticalT {
+        height: 30px;
+    }
+}
+@media screen and (max-width: 450px){
+
+    #redes {
+        width: 50%;
+    }
+    .proj ul {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 390px) {
+
+    header h1 {
+        font-size: 1.3em;
+    }
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    .linguaguens {
+        font-size: 10px;
+    }
+
+
+}
+
