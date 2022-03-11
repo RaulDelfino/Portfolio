@@ -1,5 +1,5 @@
-# Portifolio
-Portifólio - Raul Delfino Moreira dos Santos
+# Portfolio
+Portfólio - Raul Delfino Moreira dos Santos
 
 → 🤙🏽💻 Neste portifólio mostro meu perfil proficional, uma pessoa que ama trabalhar em equipe, e tem um grande comprometimento em seus trabalhos.
 
