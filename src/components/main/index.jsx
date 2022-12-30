@@ -12,7 +12,7 @@ export function Main(){
                 <a href="./../../public/curriculo.pdf" download>Curriculo</a>
             </div>
             <div className ='img'>
-                <img src='.\public\imgPC.png' alt='Foto'></img>
+                <img src='imgPC.png' alt='Foto'></img>
                 
             </div>
         </div>
