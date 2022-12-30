@@ -10,36 +10,36 @@ export function Tecnologias(){
             <ul className='list'>
                 <li>
                     
-                    <img src='./../../public/html-svgrepo-com.svg'/>
+                    <img src='html-svgrepo-com.svg'/>
                     <p>Html</p>
                 </li>
                 <li>   
                  
-                    <img src='./../../public/css3-svgrepo-com.svg'/>
+                    <img src='css3-svgrepo-com.svg'/>
                     <p>CSS</p>
                  
                 </li>
                 <li>
                
-                    <img src='./../../public/js-svgrepo-com.svg'/>
+                    <img src='js-svgrepo-com.svg'/>
                     <p>Javascript</p>
                    
                 </li>
                 <li>
              
-                    <img src='./../../public/nodejs-icon-svgrepo-com.svg'/>
+                    <img src='nodejs-icon-svgrepo-com.svg'/>
                     <p>Nodejs</p>
 
                 </li>
                 <li>
                
-                    <img src='./../../public/react-svgrepo-com.svg'/>
+                    <img src='react-svgrepo-com.svg'/>
                     <p>React</p>
               
                 </li>
                 <li>
                     
-                    <img src='./../../public/bootstrap-svgrepo-com.svg'/>
+                    <img src='bootstrap-svgrepo-com.svg'/>
                     <p> Bootstrap</p>
                    
                 </li>

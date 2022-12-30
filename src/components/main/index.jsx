@@ -9,7 +9,7 @@ export function Main(){
             <div className = 'name'>
                 <h1>Raul Delfino</h1>
                 <h2>Developer Full Stack!</h2>
-                <a href="./../../public/curriculo.pdf" download>Curriculo</a>
+                <a href="curriculo.pdf" download>Curriculo</a>
             </div>
             <div className ='img'>
                 <img src='imgPC.png' alt='Foto'></img>
