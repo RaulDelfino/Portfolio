@@ -1,0 +1,25 @@
+.footer{
+    background-color:#202020;
+    height: 100%;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+
+}
+.icons-contatos{
+    
+    font-size: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content:space-between
+
+}
+.icons-contatos a {
+    font-size: 15px;
+}

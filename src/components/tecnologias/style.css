@@ -1,0 +1,61 @@
+.tec {
+    height:30vh;
+    background-color:#121212;
+    color:rgb(68, 65, 65);
+    padding-bottom: 30px;
+}
+.tec h3{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+}
+.iconTec{
+    padding-left: 10px;
+}
+.list{
+
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+
+    transition: 0.5s;
+    
+}
+.list li{
+    transition: 1s;
+    text-align: center;
+}
+
+.list img {
+    width: 2.5rem;
+    
+}
+.list li:hover {
+    scale: 1.2;
+    transition: 0.5s;
+}
+.list:has(li:hover) li:not(:hover) {
+    opacity: .4;
+    scale: .85;
+    transition: 0.5s;
+}
+@media screen and (max-width:770px){
+    .list li{
+        font-size:0.8rem;
+    }
+    .list img {
+        width: 2.0rem;
+    }
+}
+@media screen and (max-width:425px){
+    .list{
+        display: grid;
+        gap: 20px ;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+}
+

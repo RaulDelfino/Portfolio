@@ -1,0 +1,56 @@
+.projetos{
+    font-size: 1.5rem;
+    height:100vh;
+    background-color:#121212;
+    text-align: center;
+    padding-top: 5.0rem;
+    color:rgb(68, 65, 65);
+    box-sizing: border-box;
+
+}
+.listProjects{
+
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+    margin-top: 20px;
+
+}
+.listProjects li {
+    height:10rem;
+    width: 10rem;
+    list-style: none;
+    background-color: gray;
+    transition: 1s;
+    border-radius: 10px;
+    
+}
+.listProjects li:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+.listProjects:has(li:hover) li:not(:hover) {
+    opacity: .4;
+    scale: .85;
+    transition: 1s;
+}
+
+@media screen and (max-width:550px) {
+    .projetos{
+        height:100% ;
+    }
+    .listProjects{
+        grid-template-columns: auto auto;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width:345px){
+
+    .listProjects li{
+        width: 140px;
+        margin: auto;
+
+       
+    }
+}

@@ -1,0 +1,58 @@
+.sobre{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color:#202020;
+    color:#f3f3f3;
+    
+}
+.text{
+    padding-left: 6rem;
+    width: 60%;
+
+}
+.text h3{
+    font-size:30px;
+
+}
+.text p {
+
+    color:#c3c3c3;
+    font-size: 14px;
+    width: 90%;
+    padding: 15px;
+}
+.foto{
+
+    padding-right: 5rem;
+}
+
+@media screen and (max-width:770px){
+    .text{
+        width: 60%;
+        padding-left: 4rem;
+    }
+    .foto{
+        width: 40%;
+    }
+}
+@media screen and (max-width:570px){
+    .sobre{
+        flex-direction: column-reverse;
+    }
+    .foto{
+        height: 40%;
+    }
+}
+@media screen and (max-width:375px){
+    .sobre {
+        height: 100%;
+    }
+    .foto{
+        height: 50%;
+    }
+    .text{
+        height: 50%;
+    }
+}
