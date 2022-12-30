@@ -19,12 +19,22 @@
 }
 .listProjects li {
     height:10rem;
-    width: 10rem;
+    width: 20rem;
     list-style: none;
     background-color: gray;
     transition: 1s;
     border-radius: 10px;
-    
+    border:1px solid rebeccapurple;
+    cursor: pointer;
+}
+.listProjects li img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.listProjects li p{
+    border-radius: 10px 10px 0 0;
+    background-color:#121212;
 }
 .listProjects li:hover {
     scale: 1.1;
@@ -35,13 +45,28 @@
     scale: .85;
     transition: 1s;
 }
+@media screen and (max-width:1024px){
+    .projetos{
+        height: 100%;
+    }
+    .listProjects{
+        grid-template-columns: auto auto;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width:700px){
+    .listProjects{
+        grid-template-columns: auto;
+        padding-bottom: 10px;
+    }
+}
 
 @media screen and (max-width:550px) {
     .projetos{
         height:100% ;
     }
     .listProjects{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         padding-bottom: 10px;
     }
 }

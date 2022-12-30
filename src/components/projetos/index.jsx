@@ -7,12 +7,12 @@ export function Projetos(){
 
 
             <ul className='listProjects'>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><img src='Project-Rocketpay.jpg'/></li>
+                <li><img src='Project-ListaDePresença.jpg'/></li>
+                <li><img src='Project-Control.jpg'/></li>
+                <li><img src='Project-Churrascometro.png'/></li>
+                <li><img src='Project-CalculadoraIMC.png'/></li>
+                <li><p>Em Breve</p></li>
                 
             </ul>
         </div>
