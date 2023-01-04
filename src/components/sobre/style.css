@@ -20,7 +20,7 @@
 
     color:#c3c3c3;
     font-size: 14px;
-    width: 90%;
+    width: 70%;
     padding: 15px;
 }
 .fotoPerfil{
@@ -29,6 +29,7 @@
     margin-left: 5rem;
     border-radius: 5px;
 }
+
 
 @media screen and (max-width:770px){
     .sobre{

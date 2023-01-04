@@ -1,15 +1,19 @@
 import './style.css'
+import { CSSTransition } from 'react-transition-group'
 
 export function Sobre(){
     return (
+        
         <div className ='sobre' id='sobre'>
             <div className='text'>
-                <h3>Sobre mim!</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and
-                     typesetting industry. Lorem Ipsum has been the industry
-                     's standard dummy text ever since the 1500s, when an un
-                     known printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker .
-                     </p>
+
+                    <h3>Sobre mim!</h3>
+                    <p>Me chamo Raul, tenho 19 anos e estou cursando ciência da computação (3° semestre).
+                    Sou apaixonado por tecnologia e venho aprendendo muito, tanto em minha faculdade, quanto por conta própria na internet.
+                    Gosto de me relacionar com outras pessoas para aprender com elas e passar o meu ponto de vista sobre muitos assuntos,
+                    assim tendo um ambiente seja cada vez melhor.
+                    </p>
+
             </div>
                 <div>
                     <img src='Raulfoto.jfif' alt='Foto Perfil' className='fotoPerfil'></img>

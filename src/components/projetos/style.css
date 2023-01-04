@@ -26,6 +26,7 @@
     border-radius: 10px;
     border:1px solid rebeccapurple;
     cursor: pointer;
+    box-shadow: 2px 2px 2px 1px #c2185959;
 }
 .listProjects li img{
     border-radius: 10px;
@@ -37,14 +38,87 @@
     background-color:#121212;
 }
 .listProjects li:hover {
-    scale: 1.1;
+    scale: 1.08;
     transition: 1s;
 }
 .listProjects:has(li:hover) li:not(:hover) {
     opacity: .4;
-    scale: .85;
+    scale: .90;
     transition: 1s;
 }
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.603);
+    z-index: 1000;
+
+  }
+  
+  .modal-content {
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #202020;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0);
+    border-radius: 10px;
+    
+
+  }
+  .modal-content h1{
+    font-size:1.5rem
+  }
+  .modal-content img {
+    width: 60%;
+    border-radius:10px
+  }
+  .modal-content p {
+    margin: auto;
+    color: #e6e6e6;
+    font-weight: 200;
+    width: 80%;
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+
+  .modal-content div{
+    
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+
+  }
+
+  .modal-content div a{
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 120px;
+    border: 1px solid #ccc ;
+    border-radius: 5px;
+  }
+
+  .modal-content div a:hover{
+    transition: .2s;
+    background-color: #c218591f;
+  }
+
+  .modal-content button{
+    position: absolute;
+    right: 0;
+    top:0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
 @media screen and (max-width:1024px){
     .projetos{
         height: 100%;
@@ -73,9 +147,7 @@
 @media screen and (max-width:345px){
 
     .listProjects li{
-        width: 140px;
+        width: 90%;
         margin: auto;
-
-       
     }
 }

@@ -7,10 +7,12 @@ import { Tecnologias } from './components/tecnologias'
 import { Projetos } from './components/projetos'
 import { Footer } from './components/footer'
 
+
 function App() {
-  
+
   return (
     <div className="App">
+
       <Nav/>
       
       <Main/>
@@ -20,7 +22,7 @@ function App() {
       <Tecnologias/>
 
       <Projetos/>
-
+      
       <Footer/>
     </div>
   )

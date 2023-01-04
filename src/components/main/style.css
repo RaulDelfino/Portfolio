@@ -44,7 +44,7 @@
 .img img {
 
     position: relative;
-    width: 100%;
+    width: 80%;
     transition: .5s;
 }
 .img img:hover{
