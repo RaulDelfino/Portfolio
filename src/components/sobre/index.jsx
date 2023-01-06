@@ -10,6 +10,7 @@ export function Sobre(){
             <div  className='text'>
 
                     <h3>Sobre mim!</h3>
+                    
                     <p>Me chamo Raul, tenho 19 anos e estou cursando ciência da computação (3° semestre).
                     Sou apaixonado por tecnologia e venho aprendendo muito a cada dia, tanto em minha faculdade, quanto por conta própria na internet.
                     Gosto de me relacionar com outras pessoas para aprender com elas e passar o meu ponto de vista sobre muitos assuntos,
